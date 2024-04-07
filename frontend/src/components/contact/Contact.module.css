@@ -1,0 +1,110 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  gap: 15px;
+  padding: 16px 10%;
+  margin: 50px 0% 0px 0%;
+ 
+}
+
+.text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 16px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.link a {
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 400;  
+  text-decoration: none;
+
+}
+.link a:hover{ 
+  color: var(--color-hover-link);
+}
+
+@media (max-width: 430px) {
+  .container {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: start;
+    gap: 0rem;
+
+  }
+
+  .text h2 {
+    font-size: 1.5rem;
+  }
+  
+  .text p {
+    font-size: 0.8rem;
+  }
+  .contactIcons{
+    /* color: red; */
+    width: 18px;
+    height: 18px;
+  } 
+  .link a{
+    color: var(--color-text);
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+}
+
+
+
+
+@media (min-width: 431px) and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    gap: 0.2rem;
+  }
+}

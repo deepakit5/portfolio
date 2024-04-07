@@ -1,0 +1,99 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  z-index: 1;
+  margin: 150px 10% 0px 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3%;
+}
+
+.aboutImage {
+  width: 30%;
+}
+
+.dataContainer {
+  box-shadow: 0px 0px 10px 3px grey;
+  min-width: 60%;
+
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+
+   border-radius: 23px;
+}
+
+.aboutBtn {
+  width: 33%;
+  text-align: center;
+  background-color: #1010d6;
+  padding: 5px 15px;
+}
+
+.buttonsContainer button {
+  border: none;
+  color: var(--color-text);
+  background-color: transparent;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    /* background-color: transparent; */
+    padding: 5px 0px;
+    margin-top: 100px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+  .aboutItems {
+    margin-top: 29px;
+  }
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .container{
+    width: 97%;
+    margin: 150px 1% 0px 2%;
+
+  }
+  .buttonsContainer button {
+    font-size: 1rem;
+  
+  }
+  .dataContainer {
+    width: 100%;
+    
+  }
+
+}

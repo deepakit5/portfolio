@@ -1,0 +1,80 @@
+[
+    {
+        "title": "C",
+        "imageSrc": "skills/c.png"
+    },
+    {
+        "title": "C++",
+        "imageSrc": "skills/cpp.png"
+    },
+    {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title": "TAILWIND CSS",
+        "imageSrc": "skills/tailwind.png"
+    },
+    {
+        "title": "JAVASCRIPT",
+        "imageSrc": "skills/js.png"
+    },
+    {
+        "title": "MONGO DB",
+        "imageSrc": "skills/mongodb.png"
+    },
+    {
+        "title": "EXPRESS JS",
+        "imageSrc": "skills/express.png"
+    },
+    {
+        "title": "REACT JS",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "NODE JS",
+        "imageSrc": "skills/node.png"
+    },
+    {
+        "title": "NEXT JS",
+        "imageSrc": "skills/nextjs.png"
+    },
+    {
+        "title": "MY SQL",
+        "imageSrc": "skills/mysql.png"
+    },
+    {
+        "title": "API",
+        "imageSrc": "skills/api.png"
+    },
+    {
+        "title": "GIT",
+        "imageSrc": "skills/git.png"
+    },
+    {
+        "title": "GITHUB",
+        "imageSrc": "skills/github.png"
+    },
+    {
+        "title": "VITE",
+        "imageSrc": "skills/vite.png"
+    },
+    {
+        "title": "BOOTSTRAP",
+        "imageSrc": "skills/bootstrap.png"
+    },
+  
+    {
+        "title": "VERCEL",
+        "imageSrc": "skills/vercel.jpg"
+    },
+    {
+        "title": "RENDER",
+        "imageSrc": "skills/render.png"
+    }
+   
+]

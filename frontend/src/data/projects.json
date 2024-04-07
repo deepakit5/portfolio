@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "imageSrc": "projects/portfolio.png",
+    "description": "This Website shows my technical and industrial skills, knowledge, experience and carrier growth.",
+    "skills": ["Html","CSS","Javascript","MongoDB","Express","React", "Node","Mongoose","Render"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Whether App",
+    "imageSrc": "projects/whetherApp.png",
+    "description": "A website provide whether information by using current location of user or city name provided by the user",
+   
+    "skills": ["Html","CSS","Javascript","Api"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/deepakit5/whether-app"
+  },
+  {
+    "title": "Tic-tac-toe game",
+    "imageSrc": "projects/ox.png",
+    "description": "This is a simple tic-tac-toe offline game, two players are required to play this.",
+    "skills": ["Html","CSS","Javascript"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/deepakit5/tic-tac-toe-game"
+  }
+]

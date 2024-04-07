@@ -1,0 +1,131 @@
+@import "../../vars.css";
+
+
+.container {
+    color: var(--color-text);
+    background-color: var(--color-dark);
+    background-color: rgba(12, 12, 12, 0.6);
+    margin: 100px 10% 0px 10%;
+    border-radius: 3rem 3rem;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+fieldset {
+    border-radius: 0rem 0rem 3rem 3rem;
+    border-color: transparent;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20%;
+    background-color: transparent;
+    position: relative;
+}
+
+input {
+    color: var(--color-text);
+    border: 1px solid rgb(52, 156, 197);
+    background-color: transparent;
+    position: absolute;
+    left: 6rem;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 20rem;
+    max-width: 20rem;
+    max-height: 6rem;
+    border-radius: 8px;
+}
+
+#message textarea {
+    color: var(--color-text);
+    border: 1px solid rgb(52, 156, 197);
+    background-color: transparent;
+    position: absolute;
+    left: 6rem;
+    font-size: 1.2rem;
+    min-width: 20rem;
+    min-height: 8rem;
+    max-width: 75%;
+    max-height: 8rem;
+    border-radius: 8px;
+}
+
+#message {
+    display: flex;
+    margin-bottom: 18%;
+}
+
+.form button {
+    text-align: center;
+    position: relative;
+    left: 30%;
+    width: 7rem;
+    background-color: var(--color-btn-bg);
+    color: var(--color-text);
+    padding: 9px 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid cadetblue;
+    border-radius: 15px;
+}
+
+.form button:hover {
+    background-color: var(--color-btn-hover);
+}
+
+
+@media screen and (max-width:700px) {
+    .container {
+        margin: 100px 3% 0px 3%;
+    }
+
+    .form {
+        display: inline-block;
+        flex-direction: column;
+        margin-left: 5%;
+        position: relative;
+    }
+
+    .formRow {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+    }
+
+    input {
+        position: relative;
+        left: 0rem;
+        font-size: 1rem;
+        max-width: 20rem;
+        max-height: 2rem;
+    }
+
+    #message {
+        margin-bottom: 5%;
+    }
+
+    #message textarea {
+        position: relative;
+        left: 0rem;
+        font-size: 1rem;
+        height: 8rem;
+        width: 20rem;
+        max-width: 20rem;
+        max-height: 8rem;
+    }
+
+    .formButton {
+        left: 40%;
+    }
+}

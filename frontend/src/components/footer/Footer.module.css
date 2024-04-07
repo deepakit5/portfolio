@@ -1,0 +1,20 @@
+.footer p {
+    text-align: center;
+    color: var(--color-text);
+    letter-spacing: 3px;
+    padding: 10px 0px;
+}
+
+.footer p a {
+    color: var(--color-hover-link);
+    list-style: none;
+    text-decoration: none;
+}
+
+@media (max-width: 430px) {
+    .footer p {
+        letter-spacing: 0px;
+        padding: 10px 0px;
+        font-size: 0.7rem;       
+    }
+}

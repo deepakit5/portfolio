@@ -1,0 +1,81 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  
+  box-shadow: 0 0px 8px 3px deepskyblue;
+  max-width: 250px;
+  margin-bottom: 20px;
+
+}
+
+.image {
+  border-radius: 15px 20px 0px 0px;
+  box-shadow: 0px 2px 5px whitesmoke;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center; 
+  color: lime;
+  padding-top: 5px;
+  text-shadow: 0 0 2px black;
+}
+
+.description {
+  
+  text-align:left;
+  padding: 8px 10px;
+  font-size: 13px;
+
+}
+
+.skills {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 23px;
+  background: var(--color-dark);
+  padding: 2px 10px;
+}
+
+.links {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+ 
+}
+
+.link {
+  text-decoration: none;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    
+     background-color: var(--color-btn-bg);
+    padding: 1px 15px;
+    text-shadow: 0 0 5px black;
+    border: 2px solid cadetblue;
+    border-radius: 15px;
+}
+.link:hover{
+  background-color: var(--color-btn-hover);
+  color: white;
+}

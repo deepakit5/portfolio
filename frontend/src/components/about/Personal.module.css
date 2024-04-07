@@ -1,0 +1,24 @@
+.personal{
+    background-color: rgba(12, 12, 12, 0.6);
+    color: var(--color-text);
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    
+}
+.personalItems{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.personalItem{
+    display: flex;
+    flex-direction: row;
+}   
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
