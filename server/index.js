@@ -4,8 +4,18 @@ const dbConnect = require("./config/database");
 const visitorRoutes = require("./routes/visitor");
 const app = express();
 var cors = require("cors");
+const path = require('path');
 
 const PORT = process.env.PORT || 4000;
+console.log(__dirname);
+
+// Serve the static files from the React app
+app.use(express.static(path.join(__dirname, '../client/dist')));
+
+// Serve the React app for all other requests
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/dist', 'index.html'));
+});
 
 
 // Allow requests from a specific origin (replace with your local IP)

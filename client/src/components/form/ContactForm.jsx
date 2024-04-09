@@ -5,7 +5,6 @@ import { toast } from 'react-toastify';
 // import { useNavigate } from "react-router-dom";
 
 
-
 export const ContactForm = () => {
   const { register, handleSubmit } = useForm();
   // const navigate = useNavigate();
@@ -15,7 +14,7 @@ export const ContactForm = () => {
 
     const savedUserResponse = await fetch(
 
-      `${"http://localhost:5000/api/v1"}/createVisitor`,
+      `${"http://localhost:5000/api/v1"}/createVisitor`,//backend url
 
       {
         method: "POST",
@@ -27,7 +26,7 @@ export const ContactForm = () => {
     )
 
     if (savedUserResponse.ok) {
-      toast.success('Data is successfully submitted, Thank You!')
+      toast.success('Data is submitted successfully , Thank You!')
     }
     else {
       toast.error('Oops something went wrong, Please try again!')
