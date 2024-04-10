@@ -5,16 +5,21 @@ import { toast } from 'react-toastify';
 // import { useNavigate } from "react-router-dom";
 
 
+const BASE_URL = import.meta.env.VITE_BASE_URL; // use this for vite
+
+
 export const ContactForm = () => {
   const { register, handleSubmit } = useForm();
   // const navigate = useNavigate();
 
   const createVisitor = async (data) => {
 
-
     const savedUserResponse = await fetch(
 
-      `${"http://localhost:5000/api/v1"}/createVisitor`,//backend url
+      // "http://localhost:5000/api/v1/createVisitor",
+      `${BASE_URL}/api/v1/createVisitor`,//backend url
+
+      // process.env.REACT_APP_BASE_URL/api/v1/createVisitor,     //this won't be work in vite + react.
 
       {
         method: "POST",
@@ -32,7 +37,7 @@ export const ContactForm = () => {
       toast.error('Oops something went wrong, Please try again!')
 
     }
-    console.log("FORM RESPONSE......", savedUserResponse);
+    // console.log("FORM RESPONSE......", savedUserResponse);
 
     // navigate("/");
 
