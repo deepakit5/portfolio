@@ -69,7 +69,7 @@ export const Hero = () => {
           <a href={resume}
             className={style.resumeBtn}
             target="_blank"
-            download
+            download="DEEPAK_JAYSWAL_ADGIPS_RESUME"
           >Resume
           </a>
         </div>
