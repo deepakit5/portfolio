@@ -27,10 +27,10 @@ export const Contact = () => {
 
         <li className={style.link}>
           <IoIosMail className={style.contactIcons} size={30} />
-          <a href="mailto:deepakjayswal22@gmail.com"
+          <a href="mailto:deepak.jayswal.it@gmail.com"
               target="_blank"
               >
-            deepakjayswal22@gmail.com
+            deepak.jayswal.it@gmail.com
           </a>
         </li>
 
